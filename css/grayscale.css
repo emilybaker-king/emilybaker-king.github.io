@@ -189,7 +189,7 @@
 
 .img-fluid {
   height: 650px;
-  width: auto
+  width: auto;
 }
 
 .project-1 {
@@ -200,6 +200,14 @@
 .project-2 {
   float: left;
   padding-left: 100px;
+}
+
+.project-2-title {
+  text-align: left;
+}
+
+.project-2-info {
+  text-align: left;
 }
 
 .projects-section .featured-text {
