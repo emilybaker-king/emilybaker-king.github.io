@@ -192,14 +192,22 @@
   width: auto;
 }
 
+.col-lg-6 {
+  background: darkgray;
+}
+
 .project-1 {
   float: right;
   padding-right: 100px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .project-2 {
   float: left;
   padding-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .project-2-title {
