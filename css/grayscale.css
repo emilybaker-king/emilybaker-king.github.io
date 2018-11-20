@@ -177,6 +177,12 @@
   margin-bottom: 5rem;
 }
 
+.me {
+  height: 650px;
+  width: auto;
+  margin-bottom: 50px;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
