@@ -1,0 +1,90 @@
+
+body {
+    background-color: olivedrab;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+h1 {
+    color: darkslategray;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+/* Rules for the three paragraphs */
+#instruction1 {
+    color: black;
+}
+
+#instruction2 {
+    color: black;
+}
+
+#instruction3 {
+    color: black;
+}
+
+/* styles for the input element used to add a new to-do */
+input {
+    min-width: 65%; /* This elements width must be at LEAST 65% of the width of the container */
+}
+
+/* styles for the submit button */
+#submit {
+    background-color: darkslategray;
+    color: chartreuse;
+    transition-duration: .75s;
+    /* allows us to specify what property will be animated for the transition */
+    transition-property: background-color;
+}
+
+#submit:hover {
+    background-color: black;
+}
+
+/* Styles for the ul and lis */
+
+ul {
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: cyan;
+    background-color: darkslategray;
+    font-weight: bold;
+}
+
+li:hover {
+    border: 2px solid blanchedalmond;
+}
+
+/* styles for when a list item is marked done */
+
+.done {
+    background-color: black;
+    color: chartreuse;
+}
+
+/* styles for when a list item is deleted */
+.delete {
+    display: none;
+}
+
+/* Styles for the delete button inside the list item */
+
+/* This will target any buttong whose parent element is a list item */
+li > button {
+    float: right;
+    border: none;
+    background: none;
+    color: crimson;
+}
